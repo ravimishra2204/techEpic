@@ -48,7 +48,7 @@ public class CompanyServiceTest {
 	@Autowired
     private TestRestTemplate restTemplate;
 	
-	  @LocalServerPort
+/*	  @LocalServerPort
 	     private int port;
 
 	     private String getRootUrl() {
@@ -67,7 +67,7 @@ public class CompanyServiceTest {
 	        ResponseEntity<String> response = restTemplate.exchange(getRootUrl() + "/api/v1/getCompanies",
 	        HttpMethod.GET, entity, String.class);  
 	        assertNotNull(response.getBody());
-	    }
+	    }*/
 
 			/*
 			 * @Test public void testAddComp() throws Exception{
